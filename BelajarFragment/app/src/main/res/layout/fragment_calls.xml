@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#128C7E"
+    tools:context=".CallsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="4"
+        android:text="Calls"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="58dp"
+        android:id="@+id/calls"
+        android:layout_below="@id/textViewC"
+        android:layout_marginTop="20dp">
+
+    </ListView>
+</RelativeLayout>
